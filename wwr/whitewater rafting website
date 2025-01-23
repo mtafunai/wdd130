@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Site Plan</title>
+    <link type="text/css" rel="stylesheet" href="styles/site/whitewater-rafting-website.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>whitewater-rafting-website</h1>
+        <h2>Michael Tafunai</h2>
+        <h2>WDD130</h2>
+    </header>
+    <main>
+        <hr />
+        <h2>Overview</h2>
+        <h3> Purpose</h3>
+        <p>Bring a wonderful whitewater rafting experience to all</p>
+        <h3>Audience</h3>
+        <p>Anyone who wants to have a awesome experience on the water</p>
+
+        <hr />
+        <h2>Branding</h2>
+        <h3>Website Logo</h3>
+        <img src="images/whitewater.png" alt="Logo image"/>
+        <hr />
+        <h2>Style Guide</h2>
+
+        <h3> Color Palette</h3>
+        <p>Palette URL:</p>
+        <a href="https://coolors.co/palette/ffbe0b-fb5607-ff006e-8338ec-3a86ff"
+        target="_blank">https://coolors.co/palette/ffbe0b-fb5607-ff006e-8338ec-3a86ff</a>
+
+        <table class="colors">
+            <tr>
+                <th>Primary-color</th>
+                <th>Secondary-color</th>
+                <th>Accent1-color</th>
+                <th><Accent2-color</th>
+            </tr>
+        
+            <tr>
+                <td class="Primary-color">[ffbe0b]</td>
+                <td class="Secondary-color">[fb5607]</td>
+                <td class="Accent1-color">[ff006e]</td>
+                <td class="Accent2-color">[8338ec]</td>
+                </tr>
+        </table>
+
+        <h4>
+            Heading Font: Roboto
+        </h4>
+        <h4>
+            tex-font: Italic
+        </h4>
+        <p>
+            The greatest whitewater rafting in Fiji, White Water Rafting Company
+            offers rafting on the Navua and SIgatoka Rivers. Since 1990, we have been family
+            owned and operated, rafting the rivers of Navua and Sigatoka and beyond.
+        </p>
+    </main>
+</body>
+</html>
