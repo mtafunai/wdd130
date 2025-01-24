@@ -11,58 +11,92 @@
 </head>
 
 <body>
-    <header>
-        <h1>whitewater-rafting-website</h1>
-        <h2>Michael Tafunai</h2>
-        <h2>WDD130</h2>
+    <header class="aboutHeader">
+        <<img src="images/whitewater.png" alt="Logo image" class="Logo"/>
+        <nav class="aboutNavbar">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About Us</a>
+            <a href="./trips.html">Trips</a>
+            <a href="./contact.html">Contact Us</a>
+        </nav>
     </header>
+
     <main>
-        <hr />
-        <h2>Overview</h2>
-        <h3> Purpose</h3>
-        <p>Bring a wonderful whitewater rafting experience to all</p>
-        <h3>Audience</h3>
-        <p>Anyone who wants to have a awesome experience on the water</p>
+        <section class="hero">
+            <img src="../week3/images/rafting.jpg" alt="Rafting image" class="background-image">
+            <h1> Whitewater Rafting</h1>
+            <div class="moto">
+                <img src="../week3/images/customer.png" alt="Happy customer">
+                <p>
+                    Navigate the rapids, Ride the Thrills: Your Adventure Awaits! <br>
+                    <br>
+                    Bringing the Adventure to you!<br>
+                    <br>
+                    Enjoy the best experience on whitewater Rafting!
+                </p>
+            </div>
+        </section>
 
-        <hr />
-        <h2>Branding</h2>
-        <h3>Website Logo</h3>
-        <img src="images/whitewater.png" alt="Logo image"/>
-        <hr />
-        <h2>Style Guide</h2>
+        <section class="history">
+            <h2>history</h2>
+            <div class="historycontent">
+                <p>
+                    Whitewater Rafting was born on 1978 as a way to bring amazing experience
+                    to intrepid people and share our love for the river rafting with everyone!
+                    We began offering guided trips on weekends, holidays as a small business, but
+                    quickly a lot of adventure-seekers come to us looking or exploring for new
+                    challenges.
+                </p>
+                <img src="../week3/images/raftinghistory.jpg" alt="rafting history">
+                <p>
+                    Nowadays we are in 9 areas in the country recogized internationally as a adventure
+                    companies. We have this user-friendly website to allow our customer to book trips 
+                    online, access detailed information about our rafting adventure and share their 
+                    breathtaking photos and feedback.
+                </p>
+            </div>
+        </section>
 
-        <h3> Color Palette</h3>
-        <p>Palette URL:</p>
-        <a href="https://coolors.co/palette/ff9f1c-ffbf69-ffffff-cbf3f0-2ec4b6"
-        target="_blank">https://coolors.co/palette/ff9f1c-ffbf69-ffffff-cbf3f0-2ec4b6</a>
+        <section class="adventure">
+            <h2> Adventure Awaits You!</h2>
+            <figure>
+                <img src="..//week3/images/1.jpg" alt="Savage innocent">
+                <figcaption> Savage innocent</figcaption>
+            </figure>
+            <figure>
+                <img src="../week3/images/2.jpg" alt="Big Mall">
+                <figcaption>Big Mall</figcaption>
+            </figure>
+            <img src="../wwr/images/4.jpg" alt="Wild Rapids Expedition">
+                <figcaption>Wild Rapids Expedition</figcaption>
+            </figure>
+            <figure>
+                <img src="../wwr/images/3.jpg" alt="Half Day Adventure">
+                <figcaption>Half Day Adventure</figcaption>
+            </figure>
+            <figure>
+                <img src="../wwr/images/5.jpg" alt="River Bliss Retreat">
+                <figcaption>River Bliss Retreat</figcaption>
+            </figure>
 
-        <table class="colors">
-            <tr>
-                <th>Primary-color</th>
-                <th>Secondary-color</th>
-                <th>Accent1-color</th>
-                <th><Accent2-color</th>
-            </tr>
-        
-            <tr>
-                <td class="Primary-color">[#ff9f1c]</td>
-                <td class="Secondary-color">[#ffbf69]</td>
-                <td class="Accent1-color">[#ffffff]</td>
-                <td class="Accent2-color">[#cbf3f0]</td>
-                </tr>
-        </table>
-
-        <h4>
-            Heading Font: Open Sans
-        </h4>
-        <h4>
-            tex-font: Italic
-        </h4>
-        <p>
-            The greatest whitewater rafting in Fiji, White Water Rafting Company
-            offers rafting on the Navua and SIgatoka Rivers. Since 1990, we have been family
-            owned and operated, rafting the rivers of Navua and Sigatoka and beyond.
-        </p>
+        </section>
     </main>
+
+    <footer>
+        <p>&copy;2025  Michael Tafunai- Whitewater Rafting-WDD130 // <a href="./week3/images/wfabout.png">Wireframe</a></p>
+        <nav class="sociallinks">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="./week3/images/facebook.webp" alt="facebook">
+            </a>
+
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="./week3/images/twitter.webp" alt="twitter">
+            </a>
+
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="./week3/images/instagram.webp" alt="instagram">
+            </a>
+        </nav>
+    </footer>
 </body>
 </html>
