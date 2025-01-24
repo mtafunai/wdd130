@@ -26,7 +26,7 @@
 
     <main>
         <section class="hero">
-            <img src="../week3/images/rafting.jpg" alt="Rafting image" class="background-image">
+            <img src="../week3/images/logo.png" alt="Logo image" class="background-image">
             <h1> Whitewater Rafting</h1>
             <div class="moto">
                 <img src="../week3/images/customer.png" alt="Happy customer">
