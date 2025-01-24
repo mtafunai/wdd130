@@ -3,7 +3,10 @@
 
 <head>
     <meta charset="utf-8"/>
-    <title>Site Plan</title>
+    <meta name="viewport" content="Width=device=Width, initial-scale=1.0">
+    <meta name="description" content="About Us page">
+    <meta name="author" content="Ariel Antequiera">
+    <title> Whitewater Rafting About Us</title>
     <link type="text/css" rel="stylesheet" href="styles/site/whitewater-rafting-website.css"
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
