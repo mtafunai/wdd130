@@ -1,0 +1,29 @@
+:root{
+    --primary-color: #ff9f1c;
+    --secondary-color: #ffbf69; 
+    --Accent1-color: #ffffff;
+    --Accent2-color: #cbf3f0;
+
+    --heading-font: Open Sans;
+    --text-font: Italic;
+
+    --headline-color-on-white: #ff9f1c;
+    --headline-color-on-color: #cbf3f0;
+    --text-font-color-on-white: #ffffff;
+    --text-font-color-on-color:#cbf3f0;
+    --text-background-color: #ff9f1c;
+    --nav-link-color: #ff9f1c;
+    --nav-background-color: #ffffff;
+    --nav-hover-color: white;
+    --nav-hover-background-color: #ffbf69;
+}
+
+body{
+    font-family: "Open Sans", serif;
+    font-weight: 400;    
+}
+
+h1{
+    font-weight: 100;
+
+}

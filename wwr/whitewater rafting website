@@ -7,7 +7,7 @@
     <link type="text/css" rel="stylesheet" href="styles/site/whitewater-rafting-website.css"
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -33,8 +33,8 @@
 
         <h3> Color Palette</h3>
         <p>Palette URL:</p>
-        <a href="https://coolors.co/palette/ffbe0b-fb5607-ff006e-8338ec-3a86ff"
-        target="_blank">https://coolors.co/palette/ffbe0b-fb5607-ff006e-8338ec-3a86ff</a>
+        <a href="https://coolors.co/palette/ff9f1c-ffbf69-ffffff-cbf3f0-2ec4b6"
+        target="_blank">https://coolors.co/palette/ff9f1c-ffbf69-ffffff-cbf3f0-2ec4b6</a>
 
         <table class="colors">
             <tr>
@@ -45,15 +45,15 @@
             </tr>
         
             <tr>
-                <td class="Primary-color">[ffbe0b]</td>
-                <td class="Secondary-color">[fb5607]</td>
-                <td class="Accent1-color">[ff006e]</td>
-                <td class="Accent2-color">[8338ec]</td>
+                <td class="Primary-color">[#ff9f1c]</td>
+                <td class="Secondary-color">[#ffbf69]</td>
+                <td class="Accent1-color">[#ffffff]</td>
+                <td class="Accent2-color">[#cbf3f0]</td>
                 </tr>
         </table>
 
         <h4>
-            Heading Font: Roboto
+            Heading Font: Open Sans
         </h4>
         <h4>
             tex-font: Italic
