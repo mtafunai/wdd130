@@ -27,16 +27,16 @@
  body {
    font-family: 400px;
    padding: 20px;
+   margin: 0 auto;
  }
  
- h1,
- h2,
- h3,
- h4,
- h5,
- h6 {
+ h1, h2, h3, h4, h5, h6 {
    font-family: var(--heading-font);
    color: var(--primary-color);
+ }
+ 
+ p{
+  padding: 0;
  }
  
  .aboutHeader {
