@@ -4,71 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="About Us page">
-    <meta name="author" content="Ariel Antequiera">
-    <title> Whitewater Rafting About Us
-        <link rel="stylesheet" href="wwr/styles/rafting.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
-    </title>
+    <title>Rafting Project: Contact Us</title>
+    <meta name="description" content="Contact us for more information about our white water rafting trips.">
+    <meta name="author" content="Michael Tafunai"
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
     <header class="aboutHeader">
-        <img src="images/logo.png" alt="Logo images" class="Logo images">
-        <nav class="aboutNavbar">
+        <img src="images/logo.png" alt="Logo images">
+        <h3>White Water Rafting</h3>    
+        <nav>
             <a href="./index.html">Home</a>
             <a href="./about.html">About Us</a>
             <a href="./trips.html">Trips</a>
-            <a href="./contact.html">Contact Us</a>
+            <a class="current"href="./contact.html">Contact Us</a>
         </nav>
     </header>
 
     <main>
-        <div class="hero">
-            <img src="../wwr/images/rafting.jpg" alt="Rafting image" class="background-image">
-            <h1> Whitewater Rafting</h1>
-            <article class="moto">
-                <img src="../wwr/images/customer.png" alt="Happy customer">
-                <p>
-                    Navigate the rapids, Ride the Thrills: Your Adventure Awaits! <br>
-                    <br>
-                    Bringing the Adventure to you!<br>
-                    <br>
-                    Enjoy the best experience on whitewater Rafting!
-                </p>
-            </article>
-        </div>
-
-        <section class="history">
-            <h2>history</h2>
-            <div class="historycontent">
-                <p>
-                    Whitewater Rafting was born on 1978 as a way to bring amazing experience
-                    to intrepid people and share our love for the river rafting with everyone!
-                    We began offering guided trips on weekends, holidays as a small business, but
-                    quickly a lot of adventure-seekers come to us looking or exploring for new
-                    challenges. We have been growing ever since, and now we are the largest.
-                </p>
-                <img src="../wwr/images/raftinghistory.jpg" alt="rafting history">
-                <p>
-                    Nowadays we are in 9 areas in the country recogized internationally as a adventure
-                    companies. We have this user-friendly website to allow our customer to book trips 
-                    online, access detailed information about our rafting adventure and share their 
-                    breathtaking photos and feedback. We are proud to be the best whitewater rafting
-                </p>
+        <section class="contactgeneral">
+            <h1 class="contactmike">Contact Us</h1>
+            <h2> Send Us a Message</h2>
+                <p>White Water Rafting</p>
+                <p>Phone: 9995477</p>
+                <p>Email: <a href="mailto:">sadf</a></p>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d171608.74942239316!2d178.1445534372456!3d-18.115322725774277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sfj!4v1738750772042!5m2!1sen!2sfj"
+                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        </section>
+        <section class="employees">
+            <h2> Our employees</h2>
+            <figure>
+                <img src="../wwr/images/instructor1.jpg" alt="instructor1">
+                <figcaption> This is Ross, he's an instructor</figcaption>
+            </figure>
+            <figure>
+                <img src="../wwr/images/josh.jpg" alt="Josh">
+                <figcaption> This is Josh, he the one who helps with security</figcaption>
+            </figure>   
+            <figure>
+                <img src="../wwr/images/Billy.jpg" alt="Billy">
+                <figcaption> He's the one prepare the items</figcaption>
+            </figure>
+        </section>
+        <form>
+            <div class="form-item column1">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
             </div>
-        </section>
-        <section class="adventure">
-            <h2> 
-                <img src="..//wwr/images/1.jpg" alt="Down the River">
-                <img src="../wwr/images/2.jpg" alt="Happy Clients">
-                <img src="../wwr/images/4.jpg" alt="Wild Expedition">
-                <img src="../wwr/images/3.jpg" alt="Half Day Adventure">
-                <img src="../wwr/images/5.jpg" alt="River Bliss Retreat">
-            </h2>
-        </section>
+            <div class="form-item column1">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="useremail">
+            </div>
+            <h2 class="size1 size2">Purpose of the message</h2>
+            <div class="form-item options">
+                <label for="option1">General Inquiry</label>
+                <input id="option1" type="radio" name="option1">
+                <label for="option2">Booking a Trip</label>
+                <input type="radio" id="option2" name="option2">
+                <label for="option3">website suggestion</label>
+                <input type="radio" id="option3" name="option3">
+            </div>
+            <div class="form-item column1 textoa">
+                <label for="message" class="size1">Message:</label>
+                <textarea id="message" name="message" rows="3" cols="60"></textarea>
+            </div>
+            <div class="form-item column1">
+                <input type="checkbox" id="subscribe" name="subscription">
+                <label for="subscribe">Subscribe to our newsletter</label>
+            </div>
+            <button type="submit">Contact Me</button>
+        </form>
     </main>
     <footer>
         <p>&copy;2025  Michael Tafunai- Whitewater Rafting-WDD130 // <a href="./week3/images/wfabout.png">Wireframe</a></p>
