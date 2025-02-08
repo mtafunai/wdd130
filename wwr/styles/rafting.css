@@ -41,7 +41,7 @@ header{
 }
 
 img{
-  overflow:  content-box;
+  overflow: hidden;
   overflow: clip;
 }
 
@@ -119,7 +119,7 @@ a:-webkit-any-link{
 iframe{
   width: 600px;
   height: 450px;
-  overflow:content-box !important;
+  overflow: hidden;
   overflow: clip !important;
   border-width: 2px;
   border-style: inset;
