@@ -12,13 +12,9 @@
     --text-font-color-on-white: #ffffff;
     --text-font-color-on-color:#cbf3f0;
     --text-background-color: #ff9f1c;
-    --nav-link-color: #ff9f1c;
-    --nav-background-color: #ffffff;
-    --nav-hover-color: white;
-    --nav-hover-background-color: #ffbf69;
-}
-
-* {
+    --nav-link-color: #cbf3f0;
+    --nav-background-color: #ff9f1c;
+    --nav-hover-color: #cbf3f0;
   max-width: 800px;
   margin: auto;
 }
@@ -41,7 +37,7 @@ h2 {
 
 h3{
   padding: 10px;
-  margin-left: -130px;
+  margin-right: -130px;
   color: var(--primary-color);
 }
 
@@ -95,7 +91,7 @@ nav a {
 
 header {
 margin: 1rem auto;
-display: grid;
+display: block;
 grid-template-columns: 350px 1fr 2fr;
 align-items: center;
 border-bottom: 1px solid #ccc;
