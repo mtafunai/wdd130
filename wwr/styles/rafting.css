@@ -21,6 +21,14 @@
   max-width: 800px;
   margin: auto;
 }
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  unicode-bidi: isolate;
+}
 
 h1 {
   display: block;
@@ -182,8 +190,8 @@ figure {
   border: thin #c0c0c0 solid;
   display: flex;
   flex-flow: column;
-  padding: 5px;
-  max-width: 220px;
+  padding: 9px;
+  max-width: 250px;
   margin: auto;
   background-color: var(--primary-color);
   color:var(--nav-link-color) ;
@@ -363,7 +371,7 @@ button:hover {
   width: 100%;
   height: auto;
   margin-top: 20px;
-  aspect-ratio: 3/2;
+  aspect-ratio: 16/9;
 }
 
 #tittulo1{
