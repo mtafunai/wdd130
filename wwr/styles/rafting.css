@@ -17,12 +17,10 @@
     --nav-hover-color: #cbf3f0;
   
 }
-
-*{
+* {
   max-width: 800px;
   margin: auto;
 }
-
 h1 {
   color: var(--nav-link-color);
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -42,7 +40,7 @@ h2 {
 
 h3{
   padding: 10px;
-  margin-right: -130px;
+  margin-left: -130px;
   color: var(--primary-color);
 }
 
@@ -76,10 +74,7 @@ nav a {
   width: 100%;
   height: auto;
 }
-img {
-  overflow-clip-margin: content-box;
-  overflow: clip;
-}
+
 
 .hero article {
   position: absolute;
@@ -99,7 +94,7 @@ img {
 
 header {
 margin: 1rem auto;
-display: block;
+display: grid;
 grid-template-columns: 350px 1fr 2fr;
 align-items: center;
 border-bottom: 1px solid #ccc;
@@ -498,4 +493,3 @@ button:hover {
   color: white;
   margin: 10px;
 }
-
