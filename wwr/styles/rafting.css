@@ -15,9 +15,14 @@
     --nav-link-color: #cbf3f0;
     --nav-background-color: #ff9f1c;
     --nav-hover-color: #cbf3f0;
+  
+}
+
+*{
   max-width: 800px;
   margin: auto;
 }
+
 h1 {
   color: var(--nav-link-color);
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -490,3 +495,4 @@ button:hover {
   color: white;
   margin: 10px;
 }
+
