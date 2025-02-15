@@ -13,7 +13,7 @@
     --text-font-color-on-color:#cbf3f0;
     --text-background-color: #ff9f1c;
     --nav-link-color: #cbf3f0;
-    --nav-background-color: #ff9f1c;
+    --nav-background-color: #cbf3f0;
     --nav-hover-color: #cbf3f0;
   
 }
@@ -312,7 +312,7 @@ button:hover {
 }
 
 .backbody{
-  background: var(--primary-color) url(https://area47.at/en/wp-content/uploads/2021/11/2022-area47-outdoor-rafting-01.jpg) no-repeat center center fixed;
+  background: var(--primary-color);
   background-size: cover;
 }
 
